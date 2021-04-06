@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  elixir-test:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: mix test
+    volumes:
+      - .:/app
+      - /app/_build
