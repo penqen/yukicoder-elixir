@@ -11,4 +11,5 @@
   "unicode_util_compat": {:hex, :unicode_util_compat, "0.7.0", "bc84380c9ab48177092f43ac89e4dfa2c6d62b40b8bd132b1059ecc7232f9a78", [:rebar3], [], "hexpm", "25eee6d67df61960cf6a794239566599b09e17e668d3700247bc498638152521"},
   "yamerl": {:hex, :yamerl, "0.8.1", "07da13ffa1d8e13948943789665c62ccd679dfa7b324a4a2ed3149df17f453a4", [:rebar3], [], "hexpm", "96cb30f9d64344fed0ef8a92e9f16f207de6c04dfff4f366752ca79f5bceb23f"},
   "yaml_elixir": {:hex, :yaml_elixir, "2.6.0", "1f469e4e7b006df44539685feb0a9d0d58c98230cef4ecd264ea116eb18e5d09", [:mix], [{:yamerl, "~> 0.8", [hex: :yamerl, repo: "hexpm", optional: false]}], "hexpm", "e40abb99a65e98020929d3e9b310c9f0f62aa76c3be7c0ada2aa440e12b258d9"},
+  "yuki_helper": {:hex, :yuki_helper, "0.1.0", "bbc31fbd1532393174281dfe6603cec0923ec6574880734a625ccb1a91acbb31", [:mix], [{:httpoison, "~> 1.8", [hex: :httpoison, repo: "hexpm", optional: false]}, {:jason, "~> 1.2", [hex: :jason, repo: "hexpm", optional: false]}, {:yaml_elixir, "~> 2.6", [hex: :yaml_elixir, repo: "hexpm", optional: false]}], "hexpm", "3b662557db3ec71b3e2915fe34ab23ad9cea16fe5aed39f70e4276361080e048"},
 }
